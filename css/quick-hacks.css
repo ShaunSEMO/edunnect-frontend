@@ -1,0 +1,41 @@
+.flex{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.no-margin-bottom{
+    margin-bottom: 0 !important;
+}
+
+.section-margin-bottom{
+    margin-bottom: 15%;
+}
+
+.title-margin-bottom{
+    margin-bottom: 10%;
+}
+
+.form-margin-bottom{
+    margin-bottom: 20%;
+}
+
+.turquois-text{
+    color: #00B0CC;
+}
+
+.light-text{
+    font-weight: 100;
+}
+
+.overview-text{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.faded-text{
+    opacity: 0.7;
+}
+
+.input-margin-top{
+    margin-top: 8%;
+}

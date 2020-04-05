@@ -1,0 +1,47 @@
+.contact-butt{
+    border: none;
+    color: White;
+    border-radius: 70px;
+    background: #f12711; 
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+    background: linear-gradient(to right, #f12711, #f5af19); 
+    display: flex;
+    justify-content: center; 
+    font-weight: 100;
+}
+
+.primary-butt{
+    width: 17%;
+    border: none;
+    display: flex;
+    color: White;
+    font-weight: 100;
+    border-radius: 70px;
+    background: #f12711; 
+    justify-content: center;
+    background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+    background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.longer-buttton{
+    width: 45% !important;
+}
+
+.button-text{
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.contact-butt-icon{
+    margin-left: 10%;
+}
+
+.contact-butt-text{
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.contact-butt-margin-bottom{
+    margin-bottom: 10% !important;
+}
