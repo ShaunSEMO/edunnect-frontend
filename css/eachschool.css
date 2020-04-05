@@ -1,0 +1,129 @@
+.content-container{
+    padding: 5%;
+}
+
+.left{
+    /* background-color: aqua; */
+}
+
+.title-line{
+    width: 90px;
+    margin-left: 0;
+    height: 3px;
+    border: none;
+    background-color: #00B0CC;
+    margin-top: -1%;
+}
+
+.form-title-line{
+    width: 90px;
+    height: 2px;
+    border: none;
+    background-color: white;
+    margin-top: -1%;
+}
+
+.app-form-title{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+}
+
+.page-title{
+    text-transform: capitalize;
+    font-size: 2.7rem;
+}
+
+.school-badge{
+    background-image: url('../assets/images/badge.png');
+    background-size: contain;
+    width: 40%;
+    height: 320px;
+    background-repeat: none;
+}
+
+.school-contact-container{
+    /* width: 60%; */
+    
+}
+
+.school-address{
+    width: 50%;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.school-number{
+    width: 50%;
+    padding: 0% 0% 5% 10%;
+    border-left: 2px solid #afafaf;
+}
+
+.school-about{
+    border-top: 2px solid #FF3D00;
+    padding-top: 20px;
+}
+
+.overview-table{
+    color: #707070;
+    border: 1px solid #afafaf;
+    overflow: hidden;
+}
+
+.overview-border-left{
+    border-left: 1px solid #afafaf;
+}
+
+.overview-border-bottom{
+    border-bottom: 1px solid #afafaf;
+}
+
+.main-image{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('../assets/images/main-img.jpg');
+}
+
+.image-hoolder{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+
+.sub-image{
+    width: 18%;
+    height: 100px;
+    background-size: cover;
+    border: 1px solid #707070;
+    background-image: url('../assets/images/sub-img.jpg');
+}
+
+.application-form{
+    border-radius: 10px;
+    padding: 15% 10%;
+    background: #0083B0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#00B4DB, #0083B0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#00B4DB, #0083B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.form-sub-title, .form-text{
+    color: white;
+    font-size: 1.0rem;
+}
+
+.text-input{
+    background-color: #C7F7FF;
+    border: 0 ;
+    width: 100%;
+    padding: 10px !important;
+    margin-bottom: 8% !important;
+    color: black;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
