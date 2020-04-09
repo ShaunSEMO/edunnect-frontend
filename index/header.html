@@ -1,0 +1,96 @@
+<div class="header">
+  <nav data-aos="fade-down" class="navbar navbar-dark navbar-expand-lg">
+          <a class="navbar-brand" href="{{ url('/') }}"><img class="navlogo img-fluid" src="assets/imgs/logo.png" alt="Edunnect logo"></a>
+
+              <br><br>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{ url('/') }}"><h6 style="color:white;">Home</h6 ></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{ url('about') }}"><h6 style="color:white;">About</h6 ></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{ url('contact') }}"><h6 style="color:white;">Contact</h6 ></a>
+                  </li>
+
+              </ul>
+
+          </div>
+  </nav>
+
+  <br><br><br>
+
+  <div class="container">
+    <h3>Find yourself the best school.</h3>
+    <div class="filter-search-box">
+      <form class="row form-control" action="index.html" method="post">
+        <div class="col-md-3">
+          <label for="exampleFormControlSelect1">Area</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Johannesburg</option>
+            <option>Midrand</option>
+            <option>Pritoria</option>
+            <option>Soweto</option>
+            <option>Durban</option>
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <label for="exampleFormControlSelect1">Level</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Primary School</option>
+            <option>High School</option>
+            <option>Tertiary</option>
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <label for="exampleFormControlSelect1">Subjects</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Etc</option>
+            <option>Example</option>
+            <option>Testing</option>
+            <option>Check</option>
+          </select>
+        </div>
+
+        <div class="col-md-3">
+          <label for="exampleFormControlSelect1">School fees</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>R200-R500</option>
+            <option>R500-R800</option>
+            <option>R800-R1100</option>
+            <option>R1100-R1400</option>
+            <option>R1400-R1700</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" type="submit" name="button">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 rank-icons">
+        <p>Top Viewed</p>
+      </div>
+      <div class="col-md-4 rank-icons">
+        <p>Top Rated</p>
+      </div>
+      <div class="col-md-4 rank-icons">
+        <p>Most Subjects</p>
+      </div>
+    </div>
+  </div>
+
+</div>
